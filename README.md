@@ -27,7 +27,7 @@ npm run build
 ### 2. Remove cache and node relatives
 
 ```
-rm -rf .cache node_modules package.json package-lock.json
+rm -rf .cache node_modules package-lock.json
 ```
 
 ### 3. Archieve and compress
