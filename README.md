@@ -30,11 +30,11 @@ npm run build
 rm -rf .cache node_modules package-lock.json
 ```
 
-### 3. Archieve and compress
+### 3. Archive and compress
 
 ```
 cd ..
-tar -czf archieve.tar.gz portfolio_gatsby
+tar -czf archive.tar.gz portfolio_gatsby
 ```
 
 ### 4. Upload to server and extract directory
@@ -42,11 +42,11 @@ tar -czf archieve.tar.gz portfolio_gatsby
 ```
 sftp myAWSEC2server
 cd /path/to/project
-put archieve.tar.gz
+put archive.tar.gz
 exit
 --------------------
 cd /path/to/project
-tar -xf archieve.tar.gz
+tar -xf archive.tar.gz
 ```
 
 ### 5. Restart Apache
