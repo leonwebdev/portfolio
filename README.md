@@ -3,8 +3,11 @@ Portfolio project based on Gatsby.
 
 ## Prerequisite
 > Install `nvm`
+>
 > Use `nvm` to install `node`
+>
 > Require `node>=18`
+>
 
 ```
 sudo npm install -g gatsby-cli
